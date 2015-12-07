@@ -39,6 +39,7 @@ public class WebDriverTest {
 	  driver.findElement(By.xpath("//*[@id='s']")).sendKeys("Data Warehouse");
 	  driver.findElement(By.xpath("//*[@id='searchFromheader']")).click();
 	  
+	  
 	  By SearchDataresult = By.xpath("html/body/section/div/div[2]/h2/a");
 	  String StrSearchdataresult = driver.findElement(SearchDataresult).getText();
 	  System.out.println(StrSearchdataresult);
