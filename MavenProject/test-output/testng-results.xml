@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17987" started-at="2015-12-04T12:25:02Z" finished-at="2015-12-04T12:25:20Z">
+  <suite name="Suite" duration-ms="10300" started-at="2015-12-08T07:56:52Z" finished-at="2015-12-08T07:57:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17987" started-at="2015-12-04T12:25:02Z" finished-at="2015-12-04T12:25:20Z">
+    <test name="Test" duration-ms="10300" started-at="2015-12-08T07:56:52Z" finished-at="2015-12-08T07:57:02Z">
       <class name="TestPractice.MavenProject.WebDriverTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="beforeMethod" is-config="true" duration-ms="16011" started-at="2015-12-04T17:55:02Z" finished-at="2015-12-04T17:55:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="beforeMethod" is-config="true" duration-ms="7259" started-at="2015-12-08T13:26:52Z" finished-at="2015-12-08T13:26:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="FirstTest()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="FirstTest" duration-ms="1938" started-at="2015-12-04T17:55:18Z" finished-at="2015-12-04T17:55:20Z">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="FirstTest" duration-ms="3014" started-at="2015-12-08T13:26:59Z" finished-at="2015-12-08T13:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="afterMethod" is-config="true" duration-ms="7" started-at="2015-12-04T17:55:20Z" finished-at="2015-12-04T17:55:20Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestPractice.MavenProject.WebDriverTest@1d251891]" name="afterMethod" is-config="true" duration-ms="9" started-at="2015-12-08T13:27:02Z" finished-at="2015-12-08T13:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- TestPractice.MavenProject.WebDriverTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
