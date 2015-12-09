@@ -41,7 +41,6 @@ public class WebDriverTest {
 	  By SearchDataresult = By.xpath("html/body/section/div/div[2]/h2/a");
 	  String StrSearchdataresult = driver.findElement(SearchDataresult).getText();
 	  System.out.println(StrSearchdataresult);
-	  
 	  assertThat(StrSearchdataresult).as("Saerch Data is: ").isEqualTo("Test Data Management Strategy");
 	  
 	  
