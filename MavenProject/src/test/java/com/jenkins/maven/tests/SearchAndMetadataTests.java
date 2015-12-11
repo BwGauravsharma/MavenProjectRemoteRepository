@@ -47,7 +47,7 @@ public class SearchAndMetadataTests {
 	  
   }
   
-  @Test(enabled = false)
+  @Test(enabled = true)
   public void VerifyMetaDataIsDisplayed() {
 	  
 	  driver.findElement(By.xpath("//*[@id='s']")).clear();
