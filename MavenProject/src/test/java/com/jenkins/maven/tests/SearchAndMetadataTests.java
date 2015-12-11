@@ -1,4 +1,4 @@
-package TestPractice.MavenProject;
+package com.jenkins.maven.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 
-public class WebDriverTest {
+public class SearchAndMetadataTests {
 	
 	WebDriver driver;
  
@@ -33,7 +33,22 @@ public class WebDriverTest {
   }
   
   @Test
-  public void FirstTest() {
+  public void VerifySearchDataIsDisplayed() {
+	  
+	  driver.findElement(By.xpath("//*[@id='s']")).clear();
+	  driver.findElement(By.xpath("//*[@id='s']")).sendKeys("Data Warehouse");
+	  driver.findElement(By.xpath("//*[@id='searchFromheader']")).click();
+	  By SearchDataresult = By.xpath("html/body/section/div/div[2]/h2/a");
+	  String StrSearchdataresult = driver.findElement(SearchDataresult).getText();
+	  System.out.println(StrSearchdataresult);
+	  
+	  assertThat(StrSearchdataresult).as("Saerch Data is: ").isEqualTo("Test1 Data Management Strategy");
+	  
+	  
+  }
+  
+  @Test
+  public void VerifyMetaDataIsDisplayed() {
 	  
 	  driver.findElement(By.xpath("//*[@id='s']")).clear();
 	  driver.findElement(By.xpath("//*[@id='s']")).sendKeys("Data Warehouse");
