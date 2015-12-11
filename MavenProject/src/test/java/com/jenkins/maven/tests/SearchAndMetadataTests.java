@@ -42,12 +42,12 @@ public class SearchAndMetadataTests {
 	  String StrSearchdataresult = driver.findElement(SearchDataresult).getText();
 	  System.out.println(StrSearchdataresult);
 	  
-	  assertThat(StrSearchdataresult).as("Saerch Data is: ").isEqualTo("Test Data Management Strategy");
+	  assertThat(StrSearchdataresult).as("Saerch Data is: ").isEqualTo("Test1 Data Management Strategy");
 	  
 	  
   }
   
-  @Test(enabled = false)
+  @Test(enabled = true)
   public void VerifyMetaDataIsDisplayed() {
 	  
 	  driver.findElement(By.xpath("//*[@id='s']")).clear();
